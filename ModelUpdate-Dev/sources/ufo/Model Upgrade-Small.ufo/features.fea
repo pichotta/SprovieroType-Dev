@@ -1,0 +1,665 @@
+	markClass [gravecomb] <anchor 166 694> @mark_top;
+	markClass [tildecomb] <anchor 376 638> @mark_top;
+	markClass [acutecomb] <anchor 154 694> @mark_top;
+	markClass [dotbelowcomb] <anchor 181 638> @mark_top;
+### class:0:aalt ###
+@aalt = [
+### open class 'aalt' ###
+q v w x z C E F G H I J K M N O Q T
+### close class 'aalt' ###
+];
+
+### class:1:aalt2 ###
+@aalt2 = [
+### open class 'aalt2' ###
+q.baja v.7 w.7 x.9 z.9 C.big E.big F.big G.big H.big I.big J.big K.big M.big N.big O.big Q.big T.big
+### close class 'aalt2' ###
+];
+
+### class:2:aalt3 ###
+@aalt3 = [
+### open class 'aalt3' ###
+h.9 h.6 h.3 h.baja h.7 h.99 h.7.baja h.6.9 h.55 h.77.baja h.77.baja.6 h.77.6
+### close class 'aalt3' ###
+];
+
+### class:3:aalt4 ###
+@aalt4 = [
+### open class 'aalt4' ###
+l.9 l.5 l.7 l.baja l.44 l.444 l.7.baja l.55 l.55.7 l.9.7
+### close class 'aalt4' ###
+];
+
+### class:4:fina ###
+@fina = [
+### open class 'fina' ###
+a c d e f g h i j k l m n o p r s t u x y z
+### close class 'fina' ###
+];
+
+### class:5:fina2 ###
+@fina2 = [
+### open class 'fina2' ###
+a.9 c.9 d.99 e.9 f.999 g.999 h.99 i.9 j.999 k.9 l.9 m.9 n.9 o.999 p.9 r.99 s.9 t.9 u.9 x.9 y.999 z.9
+### close class 'fina2' ###
+];
+
+### class:6:salt ###
+@salt = [
+### open class 'salt' ###
+a d h i l m n r t u B D L P R S s
+### close class 'salt' ###
+];
+
+### class:7:salt2 ###
+@salt2 = [
+### open class 'salt2' ###
+a.555 d.55 h.55 i.55 l.55 m.55 n.55 r.55 t.5 u.55 B.001 D.001 L.7 P.001 R.001 S.001 s.salt
+### close class 'salt2' ###
+];
+
+### class:8:ss01 ###
+@ss01 = [
+### open class 'ss01' ###
+b d f g h j k l p q r s y
+### close class 'ss01' ###
+];
+
+### class:9:ss012 ###
+@ss012 = [
+### open class 'ss012' ###
+b.baja d.baja f.baja g.baja h.baja j.baja k.baja l.baja p.baja q.baja r.baja s.3 y.baja
+### close class 'ss012' ###
+];
+
+### class:10:ss02 ###
+@ss02 = [
+### open class 'ss02' ###
+b f g h k l t v w y n
+### close class 'ss02' ###
+];
+
+### class:11:ss022 ###
+@ss022 = [
+### open class 'ss022' ###
+b.7 f.7 g.7 h.7 k.7 l.7 t.7 v.7 w.7 y.7 n.777
+### close class 'ss022' ###
+];
+
+### class:12:ss14 ###
+@ss14 = [
+### open class 'ss14' ###
+A B C D E F G H I J K L M N O P Q R S T U V W Y Z
+### close class 'ss14' ###
+];
+
+### class:13:ss142 ###
+@ss142 = [
+### open class 'ss142' ###
+A.big B.big C.big D.big E.big F.big G.big H.big I.big J.big K.big L.big M.big N.big O.big P.big Q.big R.big S.big T.big U.big V.big W.big Y.big Z.big
+### close class 'ss142' ###
+];
+
+### class:14:swsh ###
+@swsh = [
+### open class 'swsh' ###
+b f g h k l r s y n t
+### close class 'swsh' ###
+];
+
+### class:15:swsh2 ###
+@swsh2 = [
+### open class 'swsh2' ###
+b.7.baja f.7.baja g.7.baja h.7.baja k.7.baja l.7.baja r.7 s.3.7 y.7.baja n.7 t.77
+### close class 'swsh2' ###
+];
+
+### class:16:minus ###
+@minus = [
+### open class 'minus' ###
+a a.999 a.999.1 a.5 a.55 a.555 a.9 b b.baja b.7 b.7.baja c c.5 c.9 d d.baja d.999 d.5 d.9 d.55 d.99 d.9.7 e e.1 e.2 e.5 e.9 f f.ss16 f.baja f.7 f.7.baja f.66 f.6.7 f.6 f.999 f.123 f_f f_t g g.baja g.9999 g.7.baja g.999 g.7 h h.3 h.6 h.baja h.7 h.99 h.77 h.7.baja h.6.9 h.9 h.55 h.77.baja h.77.baja.6 h.77.6 i i.55 i.9 j j.baja j.999 k k.baja k.6 k.7 k.7.baja k.3 k.9 k.9.7 l l.baja l.5 l.44 l.444 l.7 l.7.baja l.55 l.9 l.55.7 l.9.7 m m.55 m.9 m.99 n n.55 n.7 n.777 n.9 n.99 o o.2 o.22 o.222 o.5 o.9 o.999 o.9999 p p.baja p.9 q q.baja r r.baja r.1 r.3 r.33 r.7 r.9 r.55 r.99 s s.salt s.3 s.s s.3.7 s.999 s.9999 s.9 t t.5 t.7 t.9 u u.5 u.55 u.9 v v.7 w w.7 x x.9 y y.baja y.7 y.7.baja y.999 y.3 z z.9
+### close class 'minus' ###
+];
+
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+#> classes
+#/> otclasses
+@aalt = [q v w x z C E F G H I J K M N O Q T];
+@aalt2 = [q.baja v.7 w.7 x.9 z.9 C.big E.big F.big G.big H.big I.big J.big K.big M.big N.big O.big Q.big T.big];
+@aalt3 = [h.9 h.6 h.3 h.baja h.7 h.99 h.7.baja h.6.9 h.55 h.77.baja h.77.baja.6 h.77.6];
+@aalt4 = [l.9 l.5 l.7 l.baja l.44 l.444 l.7.baja l.55 l.55.7 l.9.7];
+@fina = [a c d e f g h i j k l m n o p r s t u x y z];
+@fina2 = [a.9 c.9 d.99 e.9 f.999 g.999 h.99 i.9 j.999 k.9 l.9 m.9 n.9 o.999 p.9 r.99 s.9 t.9 u.9 x.9 y.999 z.9];
+@salt = [a d h i l m n r t u B D L P R S s];
+@salt2 = [a.555 d.55 h.55 i.55 l.55 m.55 n.55 r.55 t.5 u.55 B.001 D.001 L.7 P.001 R.001 S.001 s.salt];
+@ss01 = [b d f g h j k l p q r s y];
+@ss012 = [b.baja d.baja f.baja g.baja h.baja j.baja k.baja l.baja p.baja q.baja r.baja s.3 y.baja];
+@ss02 = [b f g h k l t v w y n];
+@ss022 = [b.7 f.7 g.7 h.7 k.7 l.7 t.7 v.7 w.7 y.7 n.777];
+@ss14 = [A B C D E F G H I J K L M N O P Q R S T U V W Y Z];
+@ss142 = [A.big B.big C.big D.big E.big F.big G.big H.big I.big J.big K.big L.big M.big N.big O.big P.big Q.big R.big S.big T.big U.big V.big W.big Y.big Z.big];
+@swsh = [b f g h k l r s y n t];
+@swsh2 = [b.7.baja f.7.baja g.7.baja h.7.baja k.7.baja l.7.baja r.7 s.3.7 y.7.baja n.7 t.77];
+@minus = [a a.999 a.999.1 a.5 a.55 a.555 a.9 b b.baja b.7 b.7.baja c c.5 c.9 d d.baja d.999 d.5 d.9 d.55 d.99 d.9.7 e e.1 e.2 e.5 e.9 f f.ss16 f.baja f.7 f.7.baja f.66 f.6.7 f.6 f.999 f.123 f_f f_t g g.baja g.9999 g.7.baja g.999 g.7 h h.3 h.6 h.baja h.7 h.99 h.77 h.7.baja h.6.9 h.9 h.55 h.77.baja h.77.baja.6 h.77.6 i i.55 i.9 j j.baja j.999 k k.baja k.6 k.7 k.7.baja k.3 k.9 k.9.7 l l.baja l.5 l.44 l.444 l.7 l.7.baja l.55 l.9 l.55.7 l.9.7 m m.55 m.9 m.99 n n.55 n.7 n.777 n.9 n.99 o o.2 o.22 o.222 o.5 o.9 o.999 o.9999 p p.baja p.9 q q.baja r r.baja r.1 r.3 r.33 r.7 r.9 r.55 r.99 s s.salt s.3 s.s s.3.7 s.999 s.9999 s.9 t t.5 t.7 t.9 u u.5 u.55 u.9 v v.7 w w.7 x x.9 y y.baja y.7 y.7.baja y.999 y.3 z z.9];
+#/< otclasses
+#< classes
+
+#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem grek dflt;
+#< languagesystem
+### close prefix 'Languagesystems' ###
+
+### feature:0:aalt ###
+feature aalt {
+### open feature 'aalt' ###
+# Access All Alternates
+
+#> feature
+  feature ss01;
+  feature ss02;
+  feature swsh;
+  feature ss04;
+  feature ss05;
+  feature ss06;
+  feature salt;
+  feature init;
+  feature fina;
+  feature ss09;
+  feature ss10;
+  feature ss11;
+  feature ss12;
+  feature ss13;
+  feature ss08;
+  feature ss14;
+  feature ornm;
+  feature ss15;
+  feature ss16;
+  feature ss03;
+#< feature
+### close feature 'aalt' ###
+} aalt;
+
+### feature:1:liga ###
+feature liga {
+### open feature 'liga' ###
+# Standard Ligatures
+
+	sub l s' by s.3;
+	sub d s' by s.3;
+	sub t s' by s.3;
+	sub v s' by s.3;
+	sub w s' by s.3;
+	sub i s' by s.3;
+	sub f r' by r.1;
+
+	sub T' @minus d by T.short;
+	sub T' @minus l by T.short;
+	sub T' @minus h by T.short;
+	sub T' @minus k by T.short;
+	sub T' @minus f by T.short;
+	sub T' @minus b by T.short;
+	sub F' @minus d by F.short;
+	sub F' @minus l by F.short;
+	sub F' @minus h by F.short;
+	sub F' @minus k by F.short;
+	sub F' @minus f by F.short;
+	sub F' @minus b by F.short;
+
+	sub L' i g by L.short;
+
+	sub U' l by U.short;
+	sub U' b by U.short;
+	sub U' t by U.short;
+	sub U' f by U.short;
+	
+
+	sub W' h by W.h;
+
+	sub F r' by r.baja;
+	sub T r' by r.baja;
+	sub r' f by r.baja;
+	sub g h by g_h;
+sub y f by y_f;
+	sub t s' by s.3;
+	
+	sub o s' by s.salt;
+
+	sub s h' by h.init;
+	sub s k' by k.init;
+	sub p h' by h.init;
+	sub p k' by k.init;
+	
+  sub f f by f_f;
+  sub f t by f_t;
+  sub f i by fi;
+  sub f l by fl;
+
+	sub p s' by s.s;
+
+
+  sub M o d e l by logo;
+  sub P r' by r.1;
+  sub p r' by r.1;
+  sub o m by o_m;
+  sub o n by o_n;
+  sub o r by o_r;
+  sub o v by o_v;
+  sub o y by o_y;
+  sub T h by T_h;
+  sub s s' by s.s;
+#< feature
+### close feature 'liga' ###
+} liga;
+
+### feature:2:ss01 ###
+feature ss01 {
+### open feature 'ss01' ###
+# GSUB feature: Stylistic Set 1
+# Lookups: 1
+
+  sub @ss01 by @ss012;
+### close feature 'ss01' ###
+} ss01;
+
+### feature:3:ss02 ###
+feature ss02 {
+### open feature 'ss02' ###
+# GSUB feature: Stylistic Set 2
+# Lookups: 1
+
+  sub @ss02 by @ss022;
+### close feature 'ss02' ###
+} ss02;
+
+### feature:4:swsh ###
+feature swsh {
+### open feature 'swsh' ###
+# GSUB feature: Swash
+# Lookups: 1
+
+  sub @swsh by @swsh2;
+### close feature 'swsh' ###
+} swsh;
+
+### feature:5:ss04 ###
+feature ss04 {
+### open feature 'ss04' ###
+# GSUB feature: Stylistic Set 4
+# Lookups: 1
+
+  sub f by f.66;
+### close feature 'ss04' ###
+} ss04;
+
+### feature:6:ss05 ###
+feature ss05 {
+### open feature 'ss05' ###
+# GSUB feature: Stylistic Set 5
+# Lookups: 1
+
+  sub [h l] by [h.77.6 l.55.7];
+### close feature 'ss05' ###
+} ss05;
+
+### feature:7:ss06 ###
+feature ss06 {
+### open feature 'ss06' ###
+# GSUB feature: Stylistic Set 6
+# Lookups: 1
+
+  sub [f h] by [f.6.7 h.77.baja.6];
+### close feature 'ss06' ###
+} ss06;
+
+### feature:8:salt ###
+feature salt {
+### open feature 'salt' ###
+# GSUB feature: Stylistic Alternates
+# Lookups: 1
+
+  sub @salt by @salt2;
+### close feature 'salt' ###
+} salt;
+
+### feature:9:init ###
+feature init {
+### open feature 'init' ###
+  sub [e r s h k] by [e.1 r.1 s.s h.init k.init];
+### close feature 'init' ###
+} init;
+
+### feature:10:fina ###
+feature fina {
+### open feature 'fina' ###
+  sub @fina by @fina2;
+### close feature 'fina' ###
+} fina;
+
+### feature:11:ss09 ###
+feature ss09 {
+### open feature 'ss09' ###
+  sub [a c d e] by [a.5 c.5 d.5 e.5];
+  sub [l o s u] by [l.5 o.5 s.999 u.5];
+### close feature 'ss09' ###
+} ss09;
+
+### feature:12:ss10 ###
+feature ss10 {
+### open feature 'ss10' ###
+  sub [d h o r n m] by [d.9 h.9 o.9 r.9 n.99 m.99];
+	sub C by C.ss10;
+### close feature 'ss10' ###
+} ss10;
+
+### feature:13:ss11 ###
+feature ss11 {
+### open feature 'ss11' ###
+  sub [f h k l] by [f.6 h.6 k.6 l.44];
+  sub [o r A] by [o.2 r.3 A.002];
+### close feature 'ss11' ###
+} ss11;
+
+### feature:14:ss12 ###
+feature ss12 {
+### open feature 'ss12' ###
+  sub [f l o r h] by [f.123 l.444 o.22 r.33 h.77.baja];
+  sub [A] by [A.001];
+### close feature 'ss12' ###
+} ss12;
+
+### feature:15:ss13 ###
+feature ss13 {
+### open feature 'ss13' ###
+  sub [h k o y] by [h.3 k.3 o.222 y.3];
+### close feature 'ss13' ###
+} ss13;
+
+### feature:16:ss08 ###
+feature ss08 {
+### open feature 'ss08' ###
+  sub [d h k l] by [d.9.7 h.6.9 k.9.7 l.9.7];
+### close feature 'ss08' ###
+} ss08;
+
+### feature:17:ss14 ###
+feature ss14 {
+### open feature 'ss14' ###
+  sub @ss14 by @ss142;
+### close feature 'ss14' ###
+} ss14;
+
+### feature:18:ornm ###
+feature ornm {
+### open feature 'ornm' ###
+  sub [a b c] by [floralheart orn.1 orn.2];
+### close feature 'ornm' ###
+} ornm;
+
+### feature:19:dlig ###
+feature dlig {
+### open feature 'dlig' ###
+  sub o v by o_v.7;
+	sub o w by o_w.7;
+sub t i by t_i;
+ 
+### close feature 'dlig' ###
+} dlig;
+
+### feature:20:ss15 ###
+feature ss15 {
+### open feature 'ss15' ###
+sub o by o.9999;
+sub s by s.9999;
+### close feature 'ss15' ###
+} ss15;
+
+### feature:21:ss16 ###
+feature ss16 {
+### open feature 'ss16' ###
+# Stylistic Set 0177777774277777760077777762320
+
+#> feature
+  sub f by f.ss16;
+#< feature
+### close feature 'ss16' ###
+} ss16;
+
+### feature:22:ss03 ###
+feature ss03 {
+### open feature 'ss03' ###
+sub [F U L T W] by [F.short U.short L.short T.short W.h];
+### close feature 'ss03' ###
+} ss03;
+
+### feature:-1:kern ###
+feature kern {
+### open feature 'kern' ###
+	lookup kern_DFLT {
+		lookupflag IgnoreMarks;
+		pos zero zero 40;
+		pos zero three 28;
+		pos zero six 16;
+		pos zero eight 36;
+		pos zero nine 12;
+		pos one three 28;
+		pos one four -24;
+		pos two one -17;
+		pos two two -36;
+		pos two seven -44;
+		pos two nine -20;
+		pos three zero 28;
+		pos three two 16;
+		pos three three 12;
+		pos three six 16;
+		pos three eight 24;
+		pos three nine 16;
+		pos five zero 32;
+		pos five two 24;
+		pos five four 40;
+		pos five six 12;
+		pos five seven -40;
+		pos five eight 40;
+		pos six zero 16;
+		pos six two -36;
+		pos six five -24;
+		pos six six 8;
+		pos six seven -32;
+		pos six eight 24;
+		pos six nine -24;
+		pos seven zero 28;
+		pos seven two 8;
+		pos seven three 52;
+		pos seven five 16;
+		pos seven six 24;
+		pos seven seven 45;
+		pos seven nine 28;
+		pos eight zero 8;
+		pos eight five -12;
+		pos eight seven -24;
+		pos eight eight 12;
+		pos eight nine -20;
+		pos nine zero 49;
+		pos nine five 16;
+		pos nine six 32;
+		pos nine seven -12;
+		pos nine eight 49;
+		pos nine nine 12;
+		pos quotesingle m -63;
+	} kern_DFLT;
+	lookup kern_latn {
+		lookupflag IgnoreMarks;
+		pos I quotesingle 60;
+		pos L i 77;
+		pos L o_v.7 66;
+		pos L.big o_v.7 40;
+		pos P a -16;
+	} kern_latn;
+	lookupflag 0;
+	script latn;
+	lookup kern_latn;
+	lookupflag 0;
+### close feature 'kern' ###
+} kern;
+
+### feature:-1:mark ###
+feature mark {
+	lookup mark_latn {
+		pos base a  <anchor 307 638> mark @mark_top;
+		pos base c  <anchor 292 638> mark @mark_top;
+		pos base e  <anchor 288 638> mark @mark_top;
+		pos base g  <anchor 323 638> mark @mark_top;
+		pos base n  <anchor 394 638> mark @mark_top;
+		pos base n.7  <anchor 394 638> mark @mark_top;
+		pos base n.99  <anchor 390 638> mark @mark_top;
+		pos base o  <anchor 279 638> mark @mark_top;
+		pos base s.3  <anchor 239 638> mark @mark_top;
+		pos base u  <anchor 256 638> mark @mark_top;
+		pos base y  <anchor 393 638> mark @mark_top;
+		pos base z  <anchor 310 638> mark @mark_top;
+		pos base A  <anchor 1142 998> mark @mark_top;
+		pos base A.002  <anchor 1126 998> mark @mark_top;
+		pos base C  <anchor 686 998> mark @mark_top;
+		pos base C.ss10  <anchor 686 998> mark @mark_top;
+		pos base D  <anchor 936 998> mark @mark_top;
+		pos base E  <anchor 630 998> mark @mark_top;
+		pos base I  <anchor 672 998> mark @mark_top;
+		pos base L  <anchor 818 998> mark @mark_top;
+		pos base L.short  <anchor 817 998> mark @mark_top;
+		pos base N  <anchor 1107 936> mark @mark_top;
+		pos base O  <anchor 713 998> mark @mark_top;
+		pos base R  <anchor 793 998> mark @mark_top;
+		pos base S  <anchor 865 998> mark @mark_top;
+		pos base T  <anchor 900 971> mark @mark_top;
+		pos base U  <anchor 992 971> mark @mark_top;
+		pos base U.big  <anchor 1103 971> mark @mark_top;
+		pos base U.short  <anchor 929 971> mark @mark_top;
+		pos base Y  <anchor 1010 971> mark @mark_top;
+		pos base Y.big  <anchor 1008 971> mark @mark_top;
+		pos base Z  <anchor 762 998> mark @mark_top;
+		pos base Z.big  <anchor 761 998> mark @mark_top;
+		pos base aacute  <anchor 307 638> mark @mark_top;
+		pos base eacute  <anchor 288 638> mark @mark_top;
+		pos base Aacute  <anchor 1142 998> mark @mark_top;
+		pos base dotlessi  <anchor 160 638> mark @mark_top;
+		pos base iacute  <anchor 160 638> mark @mark_top;
+		pos base Oacute  <anchor 713 998> mark @mark_top;
+		pos base ograve  <anchor 279 638> mark @mark_top;
+		pos base oacute  <anchor 279 638> mark @mark_top;
+		pos base odieresis  <anchor 279 638> mark @mark_top;
+		pos base igrave  <anchor 160 638> mark @mark_top;
+		pos base idieresis  <anchor 160 638> mark @mark_top;
+		pos base ugrave  <anchor 256 638> mark @mark_top;
+		pos base uacute  <anchor 256 638> mark @mark_top;
+		pos base udieresis  <anchor 256 638> mark @mark_top;
+		pos base yacute  <anchor 393 638> mark @mark_top;
+		pos base edieresis  <anchor 288 638> mark @mark_top;
+		pos base egrave  <anchor 288 638> mark @mark_top;
+		pos base adieresis  <anchor 307 638> mark @mark_top;
+		pos base agrave  <anchor 307 638> mark @mark_top;
+		pos base Egrave  <anchor 630 998> mark @mark_top;
+		pos base Eacute  <anchor 630 998> mark @mark_top;
+		pos base Edieresis  <anchor 630 998> mark @mark_top;
+		pos base Ugrave  <anchor 992 971> mark @mark_top;
+		pos base Uacute  <anchor 992 971> mark @mark_top;
+		pos base Udieresis  <anchor 992 971> mark @mark_top;
+		pos base Agrave  <anchor 1142 998> mark @mark_top;
+		pos base ntilde  <anchor 394 638> mark @mark_top;
+		pos base otilde  <anchor 279 638> mark @mark_top;
+		pos base atilde  <anchor 307 638> mark @mark_top;
+		pos base Ntilde  <anchor 1107 936> mark @mark_top;
+		pos base ydieresis  <anchor 393 638> mark @mark_top;
+		pos base Adieresis  <anchor 1142 998> mark @mark_top;
+		pos base Atilde  <anchor 1142 998> mark @mark_top;
+		pos base Igrave  <anchor 672 998> mark @mark_top;
+		pos base Iacute  <anchor 672 998> mark @mark_top;
+		pos base Idieresis  <anchor 672 998> mark @mark_top;
+		pos base Ograve  <anchor 713 998> mark @mark_top;
+		pos base Otilde  <anchor 713 998> mark @mark_top;
+		pos base Odieresis  <anchor 713 998> mark @mark_top;
+		pos base Ydieresis  <anchor 1010 971> mark @mark_top;
+		pos base Yacute  <anchor 1010 971> mark @mark_top;
+		pos base Eth  <anchor 922 998> mark @mark_top;
+		pos base acircumflex  <anchor 307 638> mark @mark_top;
+		pos base Ocircumflex  <anchor 713 998> mark @mark_top;
+		pos base Icircumflex  <anchor 672 998> mark @mark_top;
+		pos base Acircumflex  <anchor 1142 998> mark @mark_top;
+		pos base Ecircumflex  <anchor 630 998> mark @mark_top;
+		pos base Ucircumflex  <anchor 992 971> mark @mark_top;
+		pos base ecircumflex  <anchor 288 638> mark @mark_top;
+		pos base ocircumflex  <anchor 279 638> mark @mark_top;
+		pos base ucircumflex  <anchor 256 638> mark @mark_top;
+		pos base Oslash  <anchor 713 998> mark @mark_top;
+		pos base icircumflex  <anchor 160 638> mark @mark_top;
+		pos base scaron  <anchor 239 638> mark @mark_top;
+		pos base Scaron  <anchor 865 998> mark @mark_top;
+		pos base Zcaron  <anchor 762 998> mark @mark_top;
+		pos base zcaron  <anchor 310 638> mark @mark_top;
+		pos base aring  <anchor 307 638> mark @mark_top;
+		pos base Aring  <anchor 1142 998> mark @mark_top;
+		pos base zdotaccent  <anchor 310 638> mark @mark_top;
+		pos base Racute  <anchor 793 998> mark @mark_top;
+		pos base Abreve  <anchor 1142 998> mark @mark_top;
+		pos base Lacute  <anchor 818 998> mark @mark_top;
+		pos base Cacute  <anchor 686 998> mark @mark_top;
+		pos base Ccaron  <anchor 686 998> mark @mark_top;
+		pos base Ecaron  <anchor 630 998> mark @mark_top;
+		pos base Dcaron  <anchor 936 998> mark @mark_top;
+		pos base Dcroat  <anchor 922 998> mark @mark_top;
+		pos base Nacute  <anchor 1107 936> mark @mark_top;
+		pos base Ncaron  <anchor 1107 936> mark @mark_top;
+		pos base Ohungarumlaut  <anchor 713 998> mark @mark_top;
+		pos base Rcaron  <anchor 793 998> mark @mark_top;
+		pos base Uring  <anchor 992 971> mark @mark_top;
+		pos base Uhungarumlaut  <anchor 992 971> mark @mark_top;
+		pos base Zdotaccent  <anchor 762 998> mark @mark_top;
+		pos base ecaron  <anchor 288 638> mark @mark_top;
+		pos base nacute  <anchor 394 638> mark @mark_top;
+		pos base ncaron  <anchor 394 638> mark @mark_top;
+		pos base abreve  <anchor 307 638> mark @mark_top;
+		pos base cacute  <anchor 292 638> mark @mark_top;
+		pos base ccaron  <anchor 292 638> mark @mark_top;
+		pos base ohungarumlaut  <anchor 279 638> mark @mark_top;
+		pos base uring  <anchor 256 638> mark @mark_top;
+		pos base uhungarumlaut  <anchor 256 638> mark @mark_top;
+		pos base Sacute  <anchor 865 998> mark @mark_top;
+		pos base Tcaron  <anchor 900 971> mark @mark_top;
+		pos base Zacute  <anchor 762 998> mark @mark_top;
+		pos base sacute  <anchor 239 638> mark @mark_top;
+		pos base zacute  <anchor 310 638> mark @mark_top;
+		pos base Amacron  <anchor 1142 998> mark @mark_top;
+		pos base Emacron  <anchor 630 998> mark @mark_top;
+		pos base Imacron  <anchor 672 998> mark @mark_top;
+		pos base Omacron  <anchor 713 998> mark @mark_top;
+		pos base Umacron  <anchor 992 971> mark @mark_top;
+		pos base amacron  <anchor 307 638> mark @mark_top;
+		pos base emacron  <anchor 288 638> mark @mark_top;
+		pos base edotaccent  <anchor 288 638> mark @mark_top;
+		pos base imacron  <anchor 160 638> mark @mark_top;
+		pos base omacron  <anchor 279 638> mark @mark_top;
+		pos base umacron  <anchor 256 638> mark @mark_top;
+		pos base gcommaaccent  <anchor 323 638> mark @mark_top;
+		pos base Idotaccent  <anchor 672 998> mark @mark_top;
+		pos base gbreve  <anchor 323 638> mark @mark_top;
+		pos base OE  <anchor 1483 998> mark @mark_top;
+		pos base Uhorn  <anchor 992 971> mark @mark_top;
+		pos base Edotaccent  <anchor 630 998> mark @mark_top;
+	} mark_latn;
+	lookupflag 0;
+	script latn;
+	lookup mark_latn;
+	lookupflag 0;
+### open feature 'mark' ###
+### close feature 'mark' ###
+} mark;
+
+table GDEF {
+ GlyphClassDef [a c e g n n.7 n.99 o s.3 u y z A A.002 C C.ss10 D E I L L.short N O R S T U U.big U.short Y Y.big Z Z.big aacute eacute Aacute dotlessi iacute Oacute ograve oacute odieresis igrave idieresis ugrave uacute udieresis yacute edieresis egrave adieresis agrave Egrave Eacute Edieresis Ugrave Uacute Udieresis Agrave ntilde otilde atilde Ntilde ydieresis Adieresis Atilde Igrave Iacute Idieresis Ograve Otilde Odieresis Ydieresis Yacute Eth acircumflex Ocircumflex Icircumflex Acircumflex Ecircumflex Ucircumflex ecircumflex ocircumflex ucircumflex Oslash icircumflex scaron Scaron Zcaron zcaron aring Aring zdotaccent Racute Abreve Lacute Cacute Ccaron Ecaron Dcaron Dcroat Nacute Ncaron Ohungarumlaut Rcaron Uring Uhungarumlaut Zdotaccent ecaron nacute ncaron abreve cacute ccaron ohungarumlaut uring uhungarumlaut Sacute Tcaron Zacute sacute zacute Amacron Emacron Imacron Omacron Umacron amacron emacron edotaccent imacron omacron umacron gcommaaccent Idotaccent gbreve OE Uhorn Edotaccent],# Base 
+ [T_h f_f f_t o_v o_n o_m o_n.9 o_m.9 o_r.9 o_r.001 o_r o_v.7 o_w.7 g_h y_f o_y t_i fi fl], # Liga 
+ [gravecomb hookabovecomb tildecomb acutecomb dotbelowcomb], # Mark 
+ ;
+ } GDEF;
