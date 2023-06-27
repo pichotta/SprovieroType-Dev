@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+	<advance width="582"/>
+	<unicode hex="2026"/>
+	<outline>
+		<contour>
+			<point x="22" y="50" type="curve" smooth="yes"/>
+			<point x="17" y="17"/>
+			<point x="38" y="-8"/>
+			<point x="71" y="-8" type="curve" smooth="yes"/>
+			<point x="103" y="-8"/>
+			<point x="132" y="17"/>
+			<point x="137" y="50" type="curve" smooth="yes"/>
+			<point x="142" y="82"/>
+			<point x="119" y="108"/>
+			<point x="87" y="108" type="curve" smooth="yes"/>
+			<point x="55" y="108"/>
+			<point x="27" y="82"/>
+		</contour>
+		<contour>
+			<point x="206" y="50" type="curve" smooth="yes"/>
+			<point x="200" y="17"/>
+			<point x="223" y="-8"/>
+			<point x="255" y="-8" type="curve" smooth="yes"/>
+			<point x="287" y="-8"/>
+			<point x="317" y="17"/>
+			<point x="322" y="50" type="curve" smooth="yes"/>
+			<point x="327" y="82"/>
+			<point x="304" y="108"/>
+			<point x="271" y="108" type="curve" smooth="yes"/>
+			<point x="240" y="108"/>
+			<point x="211" y="82"/>
+		</contour>
+		<contour>
+			<point x="390" y="50" type="curve" smooth="yes"/>
+			<point x="385" y="17"/>
+			<point x="407" y="-8"/>
+			<point x="440" y="-8" type="curve" smooth="yes"/>
+			<point x="472" y="-8"/>
+			<point x="500" y="17"/>
+			<point x="506" y="50" type="curve" smooth="yes"/>
+			<point x="511" y="82"/>
+			<point x="488" y="108"/>
+			<point x="456" y="108" type="curve" smooth="yes"/>
+			<point x="424" y="108"/>
+			<point x="395" y="82"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>period</string>
+			<key>public.markColor</key>
+			<string>1,0.6,1,1</string>
+		</dict>
+	</lib>
+</glyph>

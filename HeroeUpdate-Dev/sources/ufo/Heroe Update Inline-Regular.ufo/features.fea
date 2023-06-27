@@ -1,0 +1,1047 @@
+@MMK_L_oporder = [b b.1 o o.5 p p.short p.3 oacute odieresis ograve otilde thorn ocircumflex oslash eth ohorn omacron ohungarumlaut];
+@MMK_L_s = [s s.ss06 scaron germandbls sacute scommaaccent scedilla];
+@MMK_R_hporizq = [h h.ss08 h.1 h.5 h.9 h.6 h.1.short h.3 k k.3 k.9 k.1 k.2 k.swsh k.2.short];
+@MMK_R_oporizq = [a a.1 a.55 a.66 a.999 a.9999 c c.ss06 c.9 d d.5 d.9 d.6 e e.ss06 e.9 g.1 g.short g.3 o o.5 o.9 o.swsh q q.9 o_f o_f_f eacute oacute edieresis odieresis ograve egrave otilde ecircumflex ocircumflex oslash ccedilla oe eth emacron eogonek cacute ccaron ecaron ohorn dong edotaccent omacron ohungarumlaut e_s e_s_t aacute acircumflex abreve adieresis agrave amacron aogonek aring atilde];
+@MMK_R_s1 = [s s_t scaron sacute scommaaccent scedilla];
+	markClass [acutecomb] <anchor 297 676> @mark_top;
+	markClass [tildecomb] <anchor 361 677> @mark_top;
+### class:0:aalt ###
+@aalt = [
+### open class 'aalt' ###
+c D A z P H s e E F C w T N v B L q G O V J S x X Y U W I Z
+### close class 'aalt' ###
+];
+
+### class:1:aalt2 ###
+@aalt2 = [
+### open class 'aalt2' ###
+c.9 D.002 A.001 z.9 P.001 H.001 s.1 e.9 E.001 F.001 C.001 w.9 T.001 N.001 v.9 B.001 L.001 q.9 G.001 O.001 V.001 J.001 S.001 x.9 X.001 Y.001 U.001 W.001 I.001 Z.001
+### close class 'aalt2' ###
+];
+
+### class:2:fina ###
+@fina = [
+### open class 'fina' ###
+n r m i h c l g d z u s t o e w y p v b k q j f x a
+### close class 'fina' ###
+];
+
+### class:3:fina2 ###
+@fina2 = [
+### open class 'fina2' ###
+n.9 r.9 m.9 i.9 h.9 c.9 l.9 g.9 d.9 z.9 u.9 s.1 t.9 o.9 e.9 w.9 y.9 p.9 v.9 b.9 k.9 q.9 j.9 f.9 x.9 a.999
+### close class 'fina2' ###
+];
+
+### class:4:salt ###
+@salt = [
+### open class 'salt' ###
+r i h l g R s w Q v b k M K u a L
+### close class 'salt' ###
+];
+
+### class:5:salt2 ###
+@salt2 = [
+### open class 'salt2' ###
+r.1 i.1 h.1 l.1 g.1 R.tranqui s.1 w.9 Q.tranqui v.9 b.1 k.2 M.tranqui K.tranqui u.serif a_romana L.tranqui
+### close class 'salt2' ###
+];
+
+### class:6:ss01 ###
+@ss01 = [
+### open class 'ss01' ###
+n m i h l d u t o a
+### close class 'ss01' ###
+];
+
+### class:7:ss012 ###
+@ss012 = [
+### open class 'ss012' ###
+n.5 m.5 i.5 h.5 l.5 d.5 u.5 t.5 o.5 a.55
+### close class 'ss012' ###
+];
+
+### class:8:ss03 ###
+@ss03 = [
+### open class 'ss03' ###
+h l D g A R P H E F C y Q T p N B L k M j f G O V K J S X Y U W I Z
+### close class 'ss03' ###
+];
+
+### class:9:ss032 ###
+@ss032 = [
+### open class 'ss032' ###
+h.1.short l.1.short D.002 g.short A.001 R.001 P.001 H.001 E.001 F.001 C.001 y.short Q.001 T.001 p.short N.001 B.001 L.001 k.2.short M.001 j.short f.short G.001 O.001 V.001 K.001 J.001 S.001 X.001 Y.001 U.001 W.001 I.001 Z.001
+### close class 'ss032' ###
+];
+
+### class:10:capstranqui ###
+@capstranqui = [
+### open class 'capstranqui' ###
+A.001 B.001 C.001 D.002 E.001 F.001 G.001 H.001 I.001 J.001 K.001 L.001 M.001 N.001 O.001 P.001 Q.001 R.001 S.001 T.001 U.001 V.001 W.001 X.001 Y.001 Z.001
+### close class 'capstranqui' ###
+];
+
+### class:11:caps ###
+@caps = [
+### open class 'caps' ###
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+### close class 'caps' ###
+];
+
+### class:12:minus ###
+@minus = [
+### open class 'minus' ###
+a a.9 a.99 a.5 a.6 a.1 a_romana a.55 a.66 a.999 a.9999 b b.9 b.1 b.3 c c.ss06 c.9 d d.5 d.9 d.6 e e.ss06 e.9 f f.9 f.short f.3 g g.ss05 g.1 g.short g.3 g.9 h h.ss08 h.1 h.5 h.9 h.6 h.1.short h.3 i i.1 i.5 i.9 j j.9 j.short j.ss05 k k.3 k.9 k.1 k.2 k.swsh k.2.short l l.1 l.1.short l.9 l.5 l.6 m m.5 m.9 m.6 n n.9 n.5 n.6 o o.5 o.9 o.swsh p p.9 p.short p.3 q q.9 r r.1 r.9 s s.ss06 s.1 s.9 t t.ss05 t.5 t.9 t.6 u u.serif u.5 u.6 u.9 v v.ss07 v.9 w w.9 x x.9 y y.short y.9 y.3 z z.9
+### close class 'minus' ###
+];
+
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+#< languagesystem
+### close prefix 'Languagesystems' ###
+
+### feature:0:aalt ###
+feature aalt {
+### open feature 'aalt' ###
+# Access All Alternates
+
+#> feature
+  feature ss04;
+  feature fina;
+  feature ss01;
+  feature swsh;
+  feature salt;
+  feature ss03;
+  feature ss02;
+  feature ornm;
+  feature ss05;
+  feature ss06;
+  feature ss07;
+  feature ss08;
+#< feature
+### close feature 'aalt' ###
+} aalt;
+
+### feature:1:ss04 ###
+feature ss04 {
+### open feature 'ss04' ###
+sub @caps by @capstranqui;
+### close feature 'ss04' ###
+} ss04;
+
+### feature:2:liga ###
+feature liga {
+### open feature 'liga' ###
+# Standard Ligatures
+
+#> feature
+sub L i' by dotlessi;
+sub H i' by dotlessi;
+  sub f f by f_f;
+  sub f l by f_l;
+  sub f i by fi;
+	sub T h by T_h;
+sub e' e by e.ss06;
+sub c' e by c.ss06;
+sub e' c by e.ss06;
+sub c' c by c.ss06;
+sub e' s by e.ss06;
+sub c' s by c.ss06;
+sub s s' by s.ss06;
+
+sub L' @minus g by L.tranqui;
+sub K' @minus g by K.tranqui;
+sub R' @minus g by R.tranqui;
+
+sub f u' by u.serif;
+
+sub t u' by u.serif;
+#< feature
+### close feature 'liga' ###
+} liga;
+
+### feature:3:dlig ###
+feature dlig {
+### open feature 'dlig' ###
+  sub s t by s_t;
+  sub e s t by e_s_t;
+
+  sub e s by e_s;
+sub r' o by r.1;
+
+sub r' c by r.1;
+sub r' c.ss06 by r.1;
+
+
+sub r' e by r.1;
+sub r' e.ss06 by r.1;
+
+sub v' o by v.ss07;
+sub v' e by v.ss07;
+sub v' e.ss06 by v.ss07;
+
+sub o f by o_f;
+sub o f f by o_f_f;
+### close feature 'dlig' ###
+} dlig;
+
+### feature:4:fina ###
+feature fina {
+### open feature 'fina' ###
+  sub @fina by @fina2;
+### close feature 'fina' ###
+} fina;
+
+### feature:5:ss01 ###
+feature ss01 {
+### open feature 'ss01' ###
+  sub @ss01 by @ss012;
+### close feature 'ss01' ###
+} ss01;
+
+### feature:6:swsh ###
+feature swsh {
+### open feature 'swsh' ###
+  sub [n m h l] by [n.6 m.6 h.6 l.6];
+  sub [d u t a] by [d.6 u.6 t.6 a.66];
+	sub [k o] by [k.swsh o.swsh];
+sub A by A.1;
+### close feature 'swsh' ###
+} swsh;
+
+### feature:7:calt ###
+feature calt {
+### open feature 'calt' ###
+  sub k by k.1;
+### close feature 'calt' ###
+} calt;
+
+### feature:8:salt ###
+feature salt {
+### open feature 'salt' ###
+  sub @salt by @salt2;
+### close feature 'salt' ###
+} salt;
+
+### feature:9:ss03 ###
+feature ss03 {
+### open feature 'ss03' ###
+  sub @ss03 by @ss032;
+### close feature 'ss03' ###
+} ss03;
+
+### feature:10:ss02 ###
+feature ss02 {
+### open feature 'ss02' ###
+  sub [h g y p n m] by [h.3 g.3 y.3 p.3 n.3 m.3];
+  sub [b f k ] by [b.3 f.3 k.3];
+### close feature 'ss02' ###
+} ss02;
+
+### feature:11:ornm ###
+feature ornm {
+### open feature 'ornm' ###
+sub a by fleuron.5;
+sub b by fleuron.1;
+sub c by fleuron.2;
+sub d by fleuron.3;
+sub e by fleuron.4;
+sub f by orn.1;
+### close feature 'ornm' ###
+} ornm;
+
+### feature:12:ss05 ###
+feature ss05 {
+### open feature 'ss05' ###
+# Stylistic Set 0177777774277777760077777762320
+
+#> feature
+  sub Q by Q.ss05;
+  sub g by g.ss05;
+  sub j by j.ss05;
+  sub t by t.ss05;
+  sub z by z.ss05;
+#< feature
+### close feature 'ss05' ###
+} ss05;
+
+### feature:13:ss06 ###
+feature ss06 {
+### open feature 'ss06' ###
+# Stylistic Set 0177777774277777760077777762320
+
+#> feature
+  sub c by c.ss06;
+  sub e by e.ss06;
+  sub s by s.ss06;
+#< feature
+### close feature 'ss06' ###
+} ss06;
+
+### feature:14:ss07 ###
+feature ss07 {
+### open feature 'ss07' ###
+# Stylistic Set 0177777774277777760077777762320
+
+#> feature
+  sub v by v.ss07;
+#< feature
+### close feature 'ss07' ###
+} ss07;
+
+### feature:15:ss08 ###
+feature ss08 {
+### open feature 'ss08' ###
+# Stylistic Set 0177777774277777760077777762320
+
+#> feature
+  sub h by h.ss08;
+#< feature
+### close feature 'ss08' ###
+} ss08;
+
+### feature:-1:kern ###
+feature kern {
+### open feature 'kern' ###
+	lookup kern_DFLT {
+		lookupflag IgnoreMarks;
+		pos two zero -22;
+		pos seven five -50;
+		pos seven eight -62;
+		pos eight three 31;
+		pos eight seven -42;
+		pos nine two -33;
+		pos nine five -58;
+		pos nine seven -25;
+		pos quotesingle @MMK_R_s1 -74;
+	} kern_DFLT;
+	lookup kern_latn {
+		lookupflag IgnoreMarks;
+		pos a.6 b 10;
+		pos a.6 b.9 10;
+		pos a.6 b.3 10;
+		pos a.6 f -13;
+		pos a.6 l.1.short -20;
+		pos a.6 l.9 -20;
+		pos a.6 v 17;
+		pos a.6 v.9 17;
+		pos a.6 w 17;
+		pos a.6 w.9 17;
+		pos a.6 f_f -13;
+		pos a.6 thorn -13;
+		pos b eth 12;
+		pos b.1 eth 12;
+		pos b.3 b.9 10;
+		pos b.3 f -9;
+		pos b.3 l.1.short -20;
+		pos b.3 l.9 -20;
+		pos b.3 u -10;
+		pos b.3 v 17;
+		pos b.3 v.9 17;
+		pos b.3 w 17;
+		pos b.3 w.9 17;
+		pos b.3 y -22;
+		pos b.3 y.3 -22;
+		pos b.3 f_f -9;
+		pos b.3 thorn -9;
+		pos c b 10;
+		pos c b.9 10;
+		pos c b.3 10;
+		pos c l -27;
+		pos c l.1.short -25;
+		pos c l.9 -20;
+		pos c v 17;
+		pos c v.9 17;
+		pos c w 17;
+		pos c w.9 17;
+		pos c eth -11;
+		pos e b 10;
+		pos e b.9 10;
+		pos e b.3 10;
+		pos e g 12;
+		pos e g.9 12;
+		pos e l.9 -20;
+		pos e v 24;
+		pos e v.9 24;
+		pos e w 17;
+		pos e w.9 17;
+		pos e x 16;
+		pos e x.9 16;
+		pos e eth 21;
+		pos g eth 24;
+		pos g.1 l.1.short -35;
+		pos h u -10;
+		pos h.6 b 10;
+		pos h.6 b.9 10;
+		pos h.6 b.3 10;
+		pos h.6 f -13;
+		pos h.6 l.1.short -20;
+		pos h.6 l.9 -20;
+		pos h.6 v 17;
+		pos h.6 v.9 17;
+		pos h.6 w 17;
+		pos h.6 w.9 17;
+		pos h.6 f_f -13;
+		pos h.6 thorn -13;
+		pos h.3 b 10;
+		pos h.3 b.9 10;
+		pos h.3 b.3 10;
+		pos h.3 f -13;
+		pos h.3 l.1.short -20;
+		pos h.3 l.9 -20;
+		pos h.3 u -10;
+		pos h.3 v 17;
+		pos h.3 v.9 17;
+		pos h.3 w 17;
+		pos h.3 w.9 17;
+		pos h.3 f_f -13;
+		pos h.3 thorn -13;
+		pos h.3 eth 12;
+		pos l b -4;
+		pos l b.9 -4;
+		pos l b.3 -4;
+		pos l eth -12;
+		pos l ohungarumlaut -12;
+		pos m u -10;
+		pos m.6 b 10;
+		pos m.6 b.9 10;
+		pos m.6 b.3 10;
+		pos m.6 f -13;
+		pos m.6 l.1.short -20;
+		pos m.6 l.9 -20;
+		pos m.6 v 17;
+		pos m.6 v.9 17;
+		pos m.6 w 17;
+		pos m.6 w.9 17;
+		pos m.6 f_f -13;
+		pos m.6 thorn -13;
+		pos n u -10;
+		pos n quotesingle -31;
+		pos n.6 b 10;
+		pos n.6 b.9 10;
+		pos n.6 b.3 10;
+		pos n.6 f -13;
+		pos n.6 l.1.short -20;
+		pos n.6 l.9 -20;
+		pos n.6 v 17;
+		pos n.6 v.9 17;
+		pos n.6 w 17;
+		pos n.6 w.9 17;
+		pos n.6 f_f -13;
+		pos n.6 thorn -13;
+		pos o eth 12;
+		pos o.5 eth 12;
+		pos p eth 12;
+		pos p.short eth 12;
+		pos p.3 eth 12;
+		pos r a.9 -45;
+		pos r a.99 -45;
+		pos r a.5 -45;
+		pos r a.6 -45;
+		pos r a_romana -45;
+		pos r b -14;
+		pos r b.9 -14;
+		pos r b.3 -14;
+		pos r f -26;
+		pos r g -22;
+		pos r g.9 -17;
+		pos r l -27;
+		pos r l.9 -49;
+		pos r space -30;
+		pos r orn.1 -49;
+		pos r f_f -26;
+		pos r thorn -26;
+		pos s.9 eth -7;
+		pos u v 6;
+		pos u v.9 6;
+		pos u w 6;
+		pos u w.9 6;
+		pos v a.9 -12;
+		pos v a.99 -12;
+		pos v a.5 -12;
+		pos v a.6 -12;
+		pos v a_romana -12;
+		pos v i 16;
+		pos v l -18;
+		pos v l.1.short -25;
+		pos v l.9 -18;
+		pos v eth 4;
+		pos w a.9 -12;
+		pos w a.99 -12;
+		pos w a.5 -12;
+		pos w a.6 -12;
+		pos w a_romana -12;
+		pos w l -18;
+		pos w l.1 -18;
+		pos w l.1.short -25;
+		pos w l.9 -18;
+		pos w eth 4;
+		pos L i 68;
+		pos L dotlessi 77;
+		pos W i 42;
+		pos T.001 l.1.short 114;
+		pos eacute b 10;
+		pos eacute b.9 10;
+		pos eacute b.3 10;
+		pos eacute l.1.short -20;
+		pos eacute l.9 -20;
+		pos eacute v 24;
+		pos eacute v.9 24;
+		pos eacute w 17;
+		pos eacute w.9 17;
+		pos eacute x 16;
+		pos eacute x.9 16;
+		pos eacute eth 21;
+		pos oacute eth 12;
+		pos edieresis b 10;
+		pos edieresis b.9 10;
+		pos edieresis b.3 10;
+		pos edieresis l.1.short -20;
+		pos edieresis l.9 -20;
+		pos edieresis v 24;
+		pos edieresis v.9 24;
+		pos edieresis w 17;
+		pos edieresis w.9 17;
+		pos edieresis x 16;
+		pos edieresis x.9 16;
+		pos edieresis eth 21;
+		pos odieresis eth 12;
+		pos ograve eth 12;
+		pos egrave b 10;
+		pos egrave b.9 10;
+		pos egrave b.3 10;
+		pos egrave l.1.short -20;
+		pos egrave l.9 -20;
+		pos egrave v 24;
+		pos egrave v.9 24;
+		pos egrave w 17;
+		pos egrave w.9 17;
+		pos egrave x 16;
+		pos egrave x.9 16;
+		pos egrave eth 21;
+		pos otilde eth 12;
+		pos thorn a 12;
+		pos thorn a.1 12;
+		pos thorn a.55 12;
+		pos thorn a.66 12;
+		pos thorn a.999 12;
+		pos thorn a.9999 12;
+		pos thorn b 10;
+		pos thorn b.9 10;
+		pos thorn b.3 10;
+		pos thorn c 12;
+		pos thorn c.ss06 12;
+		pos thorn c.9 12;
+		pos thorn d 12;
+		pos thorn d.5 12;
+		pos thorn d.9 12;
+		pos thorn d.6 12;
+		pos thorn e 12;
+		pos thorn e.ss06 12;
+		pos thorn e.9 12;
+		pos thorn g.1 12;
+		pos thorn g.short 12;
+		pos thorn g.3 12;
+		pos thorn h -20;
+		pos thorn h.ss08 -20;
+		pos thorn h.1 -20;
+		pos thorn h.5 -20;
+		pos thorn h.9 -20;
+		pos thorn h.6 -20;
+		pos thorn h.1.short -20;
+		pos thorn h.3 -20;
+		pos thorn k -20;
+		pos thorn k.3 -20;
+		pos thorn k.9 -20;
+		pos thorn k.1 -20;
+		pos thorn k.2 -20;
+		pos thorn k.swsh -20;
+		pos thorn k.2.short -20;
+		pos thorn l.1.short -20;
+		pos thorn l.9 -20;
+		pos thorn o 12;
+		pos thorn o.5 12;
+		pos thorn o.9 12;
+		pos thorn o.swsh 12;
+		pos thorn q 12;
+		pos thorn q.9 12;
+		pos thorn v 17;
+		pos thorn v.9 17;
+		pos thorn w 17;
+		pos thorn w.9 17;
+		pos thorn o_f 12;
+		pos thorn o_f_f 12;
+		pos thorn eacute 12;
+		pos thorn oacute 12;
+		pos thorn edieresis 12;
+		pos thorn odieresis 12;
+		pos thorn ograve 12;
+		pos thorn egrave 12;
+		pos thorn otilde 12;
+		pos thorn ecircumflex 12;
+		pos thorn ocircumflex 12;
+		pos thorn oslash 12;
+		pos thorn ccedilla 12;
+		pos thorn oe 12;
+		pos thorn eth 12;
+		pos thorn emacron 12;
+		pos thorn eogonek 12;
+		pos thorn cacute 12;
+		pos thorn ccaron 12;
+		pos thorn ecaron 12;
+		pos thorn ohorn 12;
+		pos thorn dong 12;
+		pos thorn edotaccent 12;
+		pos thorn omacron 12;
+		pos thorn ohungarumlaut 12;
+		pos thorn e_s 12;
+		pos thorn e_s_t 12;
+		pos thorn aacute 12;
+		pos thorn acircumflex 12;
+		pos thorn abreve 12;
+		pos thorn adieresis 12;
+		pos thorn agrave 12;
+		pos thorn amacron 12;
+		pos thorn aogonek 12;
+		pos thorn aring 12;
+		pos thorn atilde 12;
+		pos ocircumflex eth 12;
+		pos oslash eth 12;
+		pos ccedilla b 10;
+		pos ccedilla b.9 10;
+		pos ccedilla b.3 10;
+		pos ccedilla l -20;
+		pos ccedilla l.1 -20;
+		pos ccedilla l.1.short -25;
+		pos ccedilla l.9 -20;
+		pos ccedilla v 17;
+		pos ccedilla v.9 17;
+		pos ccedilla w 17;
+		pos ccedilla w.9 17;
+		pos oe b 10;
+		pos oe b.9 10;
+		pos oe b.3 10;
+		pos oe f -13;
+		pos oe l.1.short -20;
+		pos oe l.9 -20;
+		pos oe v 17;
+		pos oe v.9 17;
+		pos oe w 17;
+		pos oe w.9 17;
+		pos oe f_f -13;
+		pos oe thorn -13;
+		pos ae b 10;
+		pos ae b.9 10;
+		pos ae b.3 10;
+		pos ae l.1.short -20;
+		pos ae l.9 -20;
+		pos ae v 24;
+		pos ae v.9 24;
+		pos ae w 17;
+		pos ae w.9 17;
+		pos ae x 16;
+		pos ae x.9 16;
+		pos ae eth 21;
+		pos eth a 12;
+		pos eth a.1 12;
+		pos eth a.55 12;
+		pos eth a.66 12;
+		pos eth a.999 12;
+		pos eth a.9999 12;
+		pos eth b 10;
+		pos eth b.9 10;
+		pos eth b.3 10;
+		pos eth c 12;
+		pos eth c.ss06 12;
+		pos eth c.9 12;
+		pos eth d 12;
+		pos eth d.5 12;
+		pos eth d.9 12;
+		pos eth d.6 12;
+		pos eth e 12;
+		pos eth e.ss06 12;
+		pos eth e.9 12;
+		pos eth f -13;
+		pos eth g.1 12;
+		pos eth g.short 12;
+		pos eth g.3 12;
+		pos eth h -20;
+		pos eth h.ss08 -20;
+		pos eth h.1 -20;
+		pos eth h.5 -20;
+		pos eth h.9 -20;
+		pos eth h.6 -20;
+		pos eth h.1.short -20;
+		pos eth h.3 -20;
+		pos eth k -20;
+		pos eth k.3 -20;
+		pos eth k.9 -20;
+		pos eth k.1 -20;
+		pos eth k.2 -20;
+		pos eth k.swsh -20;
+		pos eth k.2.short -20;
+		pos eth l.1.short -20;
+		pos eth l.9 -20;
+		pos eth o 12;
+		pos eth o.5 12;
+		pos eth o.9 12;
+		pos eth o.swsh 12;
+		pos eth q 12;
+		pos eth q.9 12;
+		pos eth u -10;
+		pos eth v 17;
+		pos eth v.9 17;
+		pos eth w 17;
+		pos eth w.9 17;
+		pos eth f_f -13;
+		pos eth o_f 12;
+		pos eth o_f_f 12;
+		pos eth eacute 12;
+		pos eth oacute 12;
+		pos eth edieresis 12;
+		pos eth odieresis 12;
+		pos eth ograve 12;
+		pos eth egrave 12;
+		pos eth otilde 12;
+		pos eth thorn -13;
+		pos eth ecircumflex 12;
+		pos eth ocircumflex 12;
+		pos eth oslash 12;
+		pos eth ccedilla 12;
+		pos eth oe 12;
+		pos eth eth 12;
+		pos eth emacron 12;
+		pos eth eogonek 12;
+		pos eth cacute 12;
+		pos eth ccaron 12;
+		pos eth ecaron 12;
+		pos eth ohorn 12;
+		pos eth dong 12;
+		pos eth edotaccent 12;
+		pos eth omacron 12;
+		pos eth ohungarumlaut 12;
+		pos eth e_s 12;
+		pos eth e_s_t 12;
+		pos eth aacute 12;
+		pos eth acircumflex 12;
+		pos eth abreve 12;
+		pos eth adieresis 12;
+		pos eth agrave 12;
+		pos eth amacron 12;
+		pos eth aogonek 12;
+		pos eth aring 12;
+		pos eth atilde 12;
+		pos racute a.9 -45;
+		pos racute a.99 -45;
+		pos racute a.5 -45;
+		pos racute a.6 -45;
+		pos racute a_romana -45;
+		pos racute b -14;
+		pos racute b.9 -14;
+		pos racute b.3 -14;
+		pos racute f -26;
+		pos racute g -32;
+		pos racute l.9 -49;
+		pos racute space -30;
+		pos racute orn.1 -49;
+		pos racute f_f -26;
+		pos racute thorn -26;
+		pos cacute b 10;
+		pos cacute b.9 10;
+		pos cacute b.3 10;
+		pos cacute l.1.short -20;
+		pos cacute l.9 -20;
+		pos cacute v 24;
+		pos cacute v.9 24;
+		pos cacute w 17;
+		pos cacute w.9 17;
+		pos cacute x 16;
+		pos cacute x.9 16;
+		pos cacute eth 21;
+		pos ccaron b 10;
+		pos ccaron b.9 10;
+		pos ccaron b.3 10;
+		pos ccaron l.1.short -20;
+		pos ccaron l.9 -20;
+		pos ccaron v 24;
+		pos ccaron v.9 24;
+		pos ccaron w 17;
+		pos ccaron w.9 17;
+		pos ccaron x 16;
+		pos ccaron x.9 16;
+		pos ccaron eth 21;
+		pos ecaron b 10;
+		pos ecaron b.9 10;
+		pos ecaron b.3 10;
+		pos ecaron l.1.short -20;
+		pos ecaron l.9 -20;
+		pos ecaron v 24;
+		pos ecaron v.9 24;
+		pos ecaron w 17;
+		pos ecaron w.9 17;
+		pos ecaron x 16;
+		pos ecaron x.9 16;
+		pos ecaron eth 21;
+		pos ohorn eth 12;
+		pos omacron eth 12;
+		pos ohungarumlaut eth 12;
+		pos @MMK_L_oporder @MMK_R_hporizq -13;
+		pos @MMK_L_oporder @MMK_R_oporizq 16;
+		pos @MMK_L_oporder b 10;
+		pos @MMK_L_oporder b.3 10;
+		pos @MMK_L_oporder b.9 10;
+		pos @MMK_L_oporder f -13;
+		pos @MMK_L_oporder f_f -13;
+		pos @MMK_L_oporder g 8;
+		pos @MMK_L_oporder g.9 8;
+		pos @MMK_L_oporder l -7;
+		pos @MMK_L_oporder l.1.short -20;
+		pos @MMK_L_oporder l.9 -20;
+		pos @MMK_L_oporder thorn -13;
+		pos @MMK_L_oporder u -10;
+		pos @MMK_L_oporder v 17;
+		pos @MMK_L_oporder v.9 17;
+		pos @MMK_L_oporder w 17;
+		pos @MMK_L_oporder w.9 17;
+		pos @MMK_L_oporder y -14;
+		pos @MMK_L_oporder y.3 -14;
+		pos @MMK_L_s @MMK_R_hporizq -15;
+		pos @MMK_L_s @MMK_R_s1 -10;
+		pos @MMK_L_s l -10;
+		pos @MMK_L_s l.1.short -15;
+		pos @MMK_L_s p 15;
+		pos @MMK_L_s p.3 15;
+		pos @MMK_L_s t -10;
+		pos P @MMK_R_hporizq -52;
+		pos T.001 @MMK_R_hporizq 114;
+		pos a.6 @MMK_R_hporizq -20;
+		pos a.6 @MMK_R_oporizq 12;
+		pos ae @MMK_R_hporizq -20;
+		pos ae @MMK_R_oporizq 21;
+		pos b.3 @MMK_R_hporizq -20;
+		pos b.3 @MMK_R_oporizq 12;
+		pos c @MMK_R_hporizq -25;
+		pos c @MMK_R_oporizq -12;
+		pos c @MMK_R_s1 -21;
+		pos cacute @MMK_R_hporizq -20;
+		pos cacute @MMK_R_oporizq 21;
+		pos cacute @MMK_R_s1 -10;
+		pos ccaron @MMK_R_hporizq -20;
+		pos ccaron @MMK_R_oporizq 21;
+		pos ccaron @MMK_R_s1 -10;
+		pos ccedilla @MMK_R_hporizq -20;
+		pos ccedilla @MMK_R_oporizq 12;
+		pos e @MMK_R_hporizq -6;
+		pos e @MMK_R_oporizq 21;
+		pos e @MMK_R_s1 -7;
+		pos eacute @MMK_R_hporizq -20;
+		pos eacute @MMK_R_oporizq 21;
+		pos ecaron @MMK_R_hporizq -20;
+		pos ecaron @MMK_R_oporizq 21;
+		pos ecaron @MMK_R_s1 -10;
+		pos edieresis @MMK_R_hporizq -20;
+		pos edieresis @MMK_R_oporizq 21;
+		pos egrave @MMK_R_hporizq -20;
+		pos egrave @MMK_R_oporizq 21;
+		pos g @MMK_R_oporizq 17;
+		pos g @MMK_R_s1 -17;
+		pos g.1 @MMK_R_hporizq -20;
+		pos g.3 @MMK_R_oporizq -17;
+		pos h @MMK_R_s1 -10;
+		pos h.3 @MMK_R_hporizq -20;
+		pos h.3 @MMK_R_oporizq 12;
+		pos h.6 @MMK_R_hporizq -20;
+		pos h.6 @MMK_R_oporizq 12;
+		pos l @MMK_R_oporizq -14;
+		pos m @MMK_R_s1 -10;
+		pos m.6 @MMK_R_hporizq -20;
+		pos m.6 @MMK_R_oporizq 12;
+		pos n @MMK_R_s1 -10;
+		pos n.6 @MMK_R_hporizq -20;
+		pos n.6 @MMK_R_oporizq 12;
+		pos oe @MMK_R_hporizq -20;
+		pos oe @MMK_R_oporizq 12;
+		pos r @MMK_R_hporizq -49;
+		pos r @MMK_R_oporizq -14;
+		pos r @MMK_R_s1 -40;
+		pos racute @MMK_R_hporizq -49;
+		pos racute @MMK_R_oporizq -14;
+		pos racute @MMK_R_s1 -40;
+		pos s.9 @MMK_R_oporizq -7;
+		pos t @MMK_R_oporizq -12;
+		pos t @MMK_R_s1 -14;
+		pos v @MMK_R_hporizq -25;
+		pos v @MMK_R_oporizq 4;
+		pos v @MMK_R_s1 -18;
+		pos v.ss07 @MMK_R_oporizq -38;
+		pos w @MMK_R_hporizq -25;
+		pos w @MMK_R_oporizq 4;
+		pos w @MMK_R_s1 -18;
+		pos y @MMK_R_hporizq -12;
+		pos y @MMK_R_s1 -20;
+		pos y.3 @MMK_R_hporizq -12;
+	} kern_latn;
+	lookupflag 0;
+	script latn;
+	lookup kern_latn;
+	lookupflag 0;
+### close feature 'kern' ###
+} kern;
+
+### feature:-1:mark ###
+feature mark {
+	lookup mark_latn {
+		pos base a  <anchor 373 677> mark @mark_top;
+		pos base a.1  <anchor 373 677> mark @mark_top;
+		pos base c  <anchor 344 677> mark @mark_top;
+		pos base e  <anchor 363 677> mark @mark_top;
+		pos base n  <anchor 388 677> mark @mark_top;
+		pos base n.3  <anchor 388 677> mark @mark_top;
+		pos base o  <anchor 353 677> mark @mark_top;
+		pos base o.swsh  <anchor 353 677> mark @mark_top;
+		pos base r  <anchor 336 677> mark @mark_top;
+		pos base s  <anchor 321 677> mark @mark_top;
+		pos base u  <anchor 366 677> mark @mark_top;
+		pos base y  <anchor 365 677> mark @mark_top;
+		pos base z  <anchor 322 677> mark @mark_top;
+		pos base z.ss05  <anchor 322 677> mark @mark_top;
+		pos base A  <anchor 1256 951> mark @mark_top;
+		pos base C  <anchor 617 951> mark @mark_top;
+		pos base D  <anchor 1063 951> mark @mark_top;
+		pos base E  <anchor 639 951> mark @mark_top;
+		pos base G  <anchor 638 951> mark @mark_top;
+		pos base I  <anchor 877 951> mark @mark_top;
+		pos base K  <anchor 1104 951> mark @mark_top;
+		pos base L  <anchor 655 988> mark @mark_top;
+		pos base L.tranqui  <anchor 692 988> mark @mark_top;
+		pos base N  <anchor 1123 951> mark @mark_top;
+		pos base O  <anchor 655 951> mark @mark_top;
+		pos base R  <anchor 1049 951> mark @mark_top;
+		pos base S  <anchor 718 951> mark @mark_top;
+		pos base T  <anchor 860 951> mark @mark_top;
+		pos base U  <anchor 697 951> mark @mark_top;
+		pos base Y  <anchor 851 951> mark @mark_top;
+		pos base Z  <anchor 726 951> mark @mark_top;
+		pos base dotlessi  <anchor 217 677> mark @mark_top;
+		pos base eacute  <anchor 363 677> mark @mark_top;
+		pos base oacute  <anchor 353 677> mark @mark_top;
+		pos base uacute  <anchor 366 677> mark @mark_top;
+		pos base yacute  <anchor 365 677> mark @mark_top;
+		pos base Aacute  <anchor 1256 951> mark @mark_top;
+		pos base Eacute  <anchor 639 951> mark @mark_top;
+		pos base Oacute  <anchor 655 951> mark @mark_top;
+		pos base iacute  <anchor 217 677> mark @mark_top;
+		pos base udieresis  <anchor 366 677> mark @mark_top;
+		pos base Adieresis  <anchor 1256 951> mark @mark_top;
+		pos base Edieresis  <anchor 639 951> mark @mark_top;
+		pos base Odieresis  <anchor 655 951> mark @mark_top;
+		pos base edieresis  <anchor 363 677> mark @mark_top;
+		pos base odieresis  <anchor 353 677> mark @mark_top;
+		pos base ydieresis  <anchor 365 677> mark @mark_top;
+		pos base idieresis  <anchor 217 677> mark @mark_top;
+		pos base ograve  <anchor 353 677> mark @mark_top;
+		pos base Agrave  <anchor 1256 951> mark @mark_top;
+		pos base Egrave  <anchor 639 951> mark @mark_top;
+		pos base Ograve  <anchor 655 951> mark @mark_top;
+		pos base egrave  <anchor 363 677> mark @mark_top;
+		pos base igrave  <anchor 217 677> mark @mark_top;
+		pos base ugrave  <anchor 366 677> mark @mark_top;
+		pos base Ydieresis  <anchor 851 951> mark @mark_top;
+		pos base Ugrave  <anchor 697 951> mark @mark_top;
+		pos base Uacute  <anchor 697 951> mark @mark_top;
+		pos base Udieresis  <anchor 697 951> mark @mark_top;
+		pos base Yacute  <anchor 851 951> mark @mark_top;
+		pos base Igrave  <anchor 877 951> mark @mark_top;
+		pos base Iacute  <anchor 877 951> mark @mark_top;
+		pos base Idieresis  <anchor 877 951> mark @mark_top;
+		pos base ntilde  <anchor 388 677> mark @mark_top;
+		pos base otilde  <anchor 353 677> mark @mark_top;
+		pos base Atilde  <anchor 1256 951> mark @mark_top;
+		pos base Ntilde  <anchor 1123 951> mark @mark_top;
+		pos base Otilde  <anchor 655 951> mark @mark_top;
+		pos base ecircumflex  <anchor 363 677> mark @mark_top;
+		pos base icircumflex  <anchor 217 677> mark @mark_top;
+		pos base ocircumflex  <anchor 353 677> mark @mark_top;
+		pos base ucircumflex  <anchor 366 677> mark @mark_top;
+		pos base Acircumflex  <anchor 1256 951> mark @mark_top;
+		pos base Ecircumflex  <anchor 639 951> mark @mark_top;
+		pos base Icircumflex  <anchor 877 951> mark @mark_top;
+		pos base Ocircumflex  <anchor 655 951> mark @mark_top;
+		pos base Ucircumflex  <anchor 697 951> mark @mark_top;
+		pos base Scaron  <anchor 718 951> mark @mark_top;
+		pos base Aring  <anchor 1256 951> mark @mark_top;
+		pos base scaron  <anchor 321 677> mark @mark_top;
+		pos base zcaron  <anchor 322 677> mark @mark_top;
+		pos base Zcaron  <anchor 726 951> mark @mark_top;
+		pos base Amacron  <anchor 1256 951> mark @mark_top;
+		pos base emacron  <anchor 363 677> mark @mark_top;
+		pos base Zacute  <anchor 726 951> mark @mark_top;
+		pos base Sacute  <anchor 718 951> mark @mark_top;
+		pos base Tcaron  <anchor 860 951> mark @mark_top;
+		pos base sacute  <anchor 321 677> mark @mark_top;
+		pos base zacute  <anchor 322 677> mark @mark_top;
+		pos base Ecaron  <anchor 639 951> mark @mark_top;
+		pos base Dcaron  <anchor 1063 951> mark @mark_top;
+		pos base Nacute  <anchor 1123 951> mark @mark_top;
+		pos base Ncaron  <anchor 1123 951> mark @mark_top;
+		pos base Rcaron  <anchor 1049 951> mark @mark_top;
+		pos base racute  <anchor 336 677> mark @mark_top;
+		pos base cacute  <anchor 344 677> mark @mark_top;
+		pos base ccaron  <anchor 344 677> mark @mark_top;
+		pos base ecaron  <anchor 363 677> mark @mark_top;
+		pos base nacute  <anchor 388 677> mark @mark_top;
+		pos base ncaron  <anchor 388 677> mark @mark_top;
+		pos base rcaron  <anchor 336 677> mark @mark_top;
+		pos base Lacute  <anchor 655 988> mark @mark_top;
+		pos base Cacute  <anchor 617 951> mark @mark_top;
+		pos base Ccaron  <anchor 617 951> mark @mark_top;
+		pos base Abreve  <anchor 1256 951> mark @mark_top;
+		pos base Racute  <anchor 1049 951> mark @mark_top;
+		pos base zdotaccent  <anchor 322 677> mark @mark_top;
+		pos base Zdotaccent  <anchor 726 951> mark @mark_top;
+		pos base edotaccent  <anchor 363 677> mark @mark_top;
+		pos base imacron  <anchor 217 677> mark @mark_top;
+		pos base Emacron  <anchor 639 951> mark @mark_top;
+		pos base umacron  <anchor 366 677> mark @mark_top;
+		pos base omacron  <anchor 353 677> mark @mark_top;
+		pos base Edotaccent  <anchor 639 951> mark @mark_top;
+		pos base Umacron  <anchor 697 951> mark @mark_top;
+		pos base Omacron  <anchor 655 951> mark @mark_top;
+		pos base Imacron  <anchor 877 951> mark @mark_top;
+		pos base Uring  <anchor 697 951> mark @mark_top;
+		pos base uring  <anchor 366 677> mark @mark_top;
+		pos base ohungarumlaut  <anchor 353 677> mark @mark_top;
+		pos base uhungarumlaut  <anchor 366 677> mark @mark_top;
+		pos base Ohungarumlaut  <anchor 655 951> mark @mark_top;
+		pos base Uhungarumlaut  <anchor 697 951> mark @mark_top;
+		pos base Idotaccent  <anchor 877 951> mark @mark_top;
+		pos base Gbreve  <anchor 638 951> mark @mark_top;
+		pos base aacute  <anchor 373 677> mark @mark_top;
+		pos base acircumflex  <anchor 373 677> mark @mark_top;
+		pos base abreve  <anchor 373 677> mark @mark_top;
+		pos base adieresis  <anchor 373 677> mark @mark_top;
+		pos base agrave  <anchor 373 677> mark @mark_top;
+		pos base amacron  <anchor 373 677> mark @mark_top;
+		pos base aogonek  <anchor 373 677> mark @mark_top;
+		pos base aring  <anchor 373 677> mark @mark_top;
+		pos base atilde  <anchor 373 677> mark @mark_top;
+	} mark_latn;
+	lookupflag 0;
+	script latn;
+	lookup mark_latn;
+	lookupflag 0;
+### open feature 'mark' ###
+### close feature 'mark' ###
+} mark;
+
+table GDEF {
+ GlyphClassDef [a a.1 c e n n.3 o o.swsh r s u y z z.ss05 A C D E G I K L L.tranqui N O R S T U Y Z dotlessi eacute oacute uacute yacute Aacute Eacute Oacute iacute udieresis Adieresis Edieresis Odieresis edieresis odieresis ydieresis idieresis ograve Agrave Egrave Ograve egrave igrave ugrave Ydieresis Ugrave Uacute Udieresis Yacute Igrave Iacute Idieresis ntilde otilde Atilde Ntilde Otilde ecircumflex icircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex Scaron Aring scaron zcaron Zcaron Amacron emacron Zacute Sacute Tcaron sacute zacute Ecaron Dcaron Nacute Ncaron Rcaron racute cacute ccaron ecaron nacute ncaron rcaron Lacute Cacute Ccaron Abreve Racute zdotaccent Zdotaccent edotaccent imacron Emacron umacron omacron Edotaccent Umacron Omacron Imacron Uring uring ohungarumlaut uhungarumlaut Ohungarumlaut Uhungarumlaut Idotaccent Gbreve aacute acircumflex abreve adieresis agrave amacron aogonek aring atilde],# Base 
+ [a_romana T_h s_t f_f o_f o_f_f f_l fi fl e_s e_s_t], # Liga 
+ [acutecomb dotbelowcomb tildecomb], # Mark 
+ ;
+ } GDEF;
